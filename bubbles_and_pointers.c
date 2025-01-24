@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 void printValues(int*);
-//void sort(int*);
-//void swap(int*, int*);
+void sort(int*);
+void swap(int*, int*);
+
 
 
 void printValues (int values[]) {
@@ -12,6 +13,17 @@ void printValues (int values[]) {
                 printf(" ");
         }
         printf("]");
+}
+
+void sort(int mixed_array[]) {
+  
+
+}
+
+void swap(int* value1, int* value2) {
+
+
+
 }
 
 int main(){
@@ -25,7 +37,6 @@ int main(){
   printf("x: %d, y: %d \n", x, y);
   swap(&x, &y);
   printf("x: %d, y: %d \n", x, y);
-
   sort(values);
   printf("After: \n");
   printValues(values);
