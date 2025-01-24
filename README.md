@@ -26,3 +26,6 @@ This C program sorts an array of 9 integers starting from low to high
 ## Main Function
 - make an array of integers called  "values" and give it {7, 3, 9, 4, 6, 1, 2, 8, 5}
 - print the array using printValues
+- make test variables and use swap to switch their values
+- use sort function to sort the array
+- print the final array using printValues
